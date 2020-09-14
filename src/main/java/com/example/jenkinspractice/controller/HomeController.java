@@ -10,5 +10,10 @@ public class HomeController {
 	public String displayData() {
 		return "Welcome Jenkins";
 	}
+	
+	@GetMapping("/users")
+	public String displayUsers() {
+		return "List of Users";
+	}
 
 }
